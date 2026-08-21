@@ -1,6 +1,6 @@
 # Shwesh Dubey — Personal Portfolio
 
-A responsive personal portfolio website built to showcase my education, technical skills, tools, projects, and development journey.
+A responsive personal portfolio website built to showcase my education, technical skills, development tools, Python projects, frontend projects, and software development journey.
 
 ## 🌐 Live Website
 
@@ -10,9 +10,9 @@ A responsive personal portfolio website built to showcase my education, technica
 
 ## 📌 About
 
-This is my personal portfolio website, created to present my development work and learning journey in a clean and interactive interface.
+This is my personal portfolio website, created to present my development work, technical skills, projects, education, and career journey.
 
-The portfolio includes information about my education, technical skills, development tools, projects, and contact information.
+The portfolio focuses on my progression as a developer, with an increasing focus on **Python programming and backend development**.
 
 The website uses a modern glassmorphism-inspired design with animations, interactive elements, and a responsive layout for different screen sizes.
 
@@ -23,6 +23,7 @@ The website uses a modern glassmorphism-inspired design with animations, interac
 - HTML5
 - CSS3
 - JavaScript
+- Python
 
 ### Development Tools
 
@@ -48,7 +49,9 @@ The website uses a modern glassmorphism-inspired design with animations, interac
 - Download CV button
 - Scroll-to-top button
 - Responsive navigation
-- Contact section with email, LinkedIn, GitHub, and location
+- Contact section
+- GitHub project links
+- Live project demonstrations
 
 ---
 
@@ -66,7 +69,7 @@ The landing section introduces me with:
 
 ### 👨‍💻 About
 
-Provides an overview of my current learning journey, development interests, and career direction.
+Provides an overview of my current learning journey, development interests, programming experience, and career direction.
 
 ### 🎓 Education
 
@@ -79,9 +82,11 @@ Currently includes:
 
 Current technical skills showcased on the portfolio:
 
+- Python
 - HTML5
 - CSS3
 - JavaScript
+- MySQL
 
 ### 🛠️ Tools
 
@@ -91,17 +96,139 @@ Development tools currently showcased:
 - Git
 - GitHub
 
-### 💻 Projects
+---
 
-#### YouTube Clone
+# 💻 Projects
 
-A responsive YouTube homepage clone built using HTML and CSS.
+The projects section primarily focuses on my **Python programming journey**, followed by frontend development projects.
+
+## 🔐 Password Manager
+
+A Python-based password manager that generates, stores, and retrieves passwords using encryption.
+
+**Technology:**
+- Python
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Password-Manager)
+
+---
+
+## 🎰 Python Slot Machine
+
+A command-line slot machine game built with Python featuring randomized symbols, betting logic, winning lines, balance management, and input validation.
+
+**Technology:**
+- Python
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Slot-Machine)
+
+---
+
+## ⏱️ Timed Math Challenge
+
+A Python command-line math challenge that generates random mathematical problems, measures completion time, tracks incorrect attempts, and handles invalid user input.
+
+**Technology:**
+- Python
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Timed-math-challenge)
+
+---
+
+## 🗺️ Choose Your Own Adventure
+
+An interactive text-based adventure game built with Python where player decisions determine different outcomes.
+
+**Technology:**
+- Python
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Choose-your-own-adventure)
+
+---
+
+## 🔢 Number Guessing Game
+
+A Python game where players attempt to guess a randomly generated number while receiving hints after each attempt.
+
+**Technology:**
+- Python
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Number-Guessing-Game)
+
+---
+
+## 🧠 Python Quiz Game
+
+A terminal-based 10-question quiz game created with Python to practice fundamental programming concepts.
+
+**Technology:**
+- Python
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Quiz-Game)
+
+---
+
+## 📝 Mad Libs Generator
+
+A Python program that reads a story from a text file, works with placeholders, collects user input, and generates a customized story.
+
+**Technology:**
+- Python
+- File Handling
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Madlibs-Generator)
+
+---
+
+## ✊ Rock Paper Scissors
+
+A Python-based Rock Paper Scissors game where the player competes against a computer-controlled opponent.
+
+**Technology:**
+- Python
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/Rock-Paper-Scissors)
+
+---
+
+## 🏢 RiskCube Institute Official Website
+
+A responsive front-end website developed for RiskCube Institute using HTML, CSS, and JavaScript.
+
+**Technologies:**
+- HTML5
+- CSS3
+- JavaScript
+
+**Source Code:**  
+[GitHub Repository](https://github.com/shweshd/RiskCube-Institute-Official-Website)
+
+**Live Demo:**  
+[View Project](https://shweshd.github.io/RiskCube-Institute-Official-Website/)
+
+---
+
+## ▶️ YouTube Clone
+
+A responsive YouTube homepage clone built using pure HTML and CSS.
+
+**Technologies:**
+- HTML5
+- CSS3
 
 **Features:**
 
 - Responsive layout
 - YouTube-inspired interface
-- HTML structure
+- Structured HTML
 - CSS-based styling and layout
 
 **Source Code:**  
@@ -110,18 +237,9 @@ A responsive YouTube homepage clone built using HTML and CSS.
 **Live Demo:**  
 [View Project](https://shweshd.github.io/YouTube-Clone/)
 
-### 📬 Contact
-
-The portfolio provides multiple ways to connect:
-
-- Email
-- LinkedIn
-- GitHub
-- Location
-
 ---
 
-## 🎨 Design
+# 🎨 Design
 
 The website uses a modern visual style featuring:
 
@@ -132,10 +250,11 @@ The website uses a modern visual style featuring:
 - Smooth scrolling
 - Interactive hover effects
 - Animated UI elements
+- Scroll reveal effects
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
 Portfolio/
@@ -146,42 +265,9 @@ Portfolio/
 │
 ├── shwesh-blue-img-square.webp
 ├── 201735-916310640_medium.mp4
-├── shwesh dubey-resume.pdf
-├── YouTube-Logo.wine.png
-├── GitHub.png
-├── InBug-Black.png
+├── Shwesh-Dubey-Resume-WD.pdf
+├── IDR-ICON-NO-BG.png
+├── quiz_game.png
 │
+├── .gitignore
 └── README.md
-The exact files may change as the portfolio continues to be updated.
-
-🎯 Purpose
-
-This project was created to:
-
-Build and improve frontend development skills
-Practice HTML, CSS, and JavaScript
-Learn responsive web design
-Experiment with animations and interactive UI
-Showcase personal projects
-Build a professional developer portfolio
-Document my progress as I continue learning software development
-🚀 Future Improvements
-
-Planned improvements include:
-
-Adding more projects
-Expanding the skills section
-Improving accessibility
-Optimizing website performance
-Adding more advanced JavaScript interactions
-Improving mobile responsiveness
-Adding backend functionality in future versions
-🔗 Links
-Portfolio: shweshd.github.io/Portfolio
-GitHub: github.com/shweshd
-LinkedIn: linkedin.com/in/shweshdubey
-📄 License
-
-This project is a personal portfolio website created for educational and professional purposes.
-
-© 2026 Shwesh Dubey
