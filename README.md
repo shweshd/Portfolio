@@ -1,30 +1,77 @@
 # Shwesh Dubey — Personal Portfolio
 
-A responsive personal portfolio website built to showcase my education, technical skills, development tools, Python projects, frontend projects, and software development journey.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00111f,100:00d9ff&height=180&section=header&text=Shwesh%20Dubey&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Personal%20Portfolio%20%7C%20BCA%20Student%20%7C%20Aspiring%20Software%20Engineer&descAlignY=58&descSize=18" />
+</p>
 
-## 🌐 Live Website
-
-[Visit My Portfolio](https://shweshd.github.io/Portfolio/)
+<p align="center">
+  <a href="https://shweshd.github.io/Portfolio/">
+    <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Visit%20My%20Portfolio-00D9FF?style=for-the-badge&logoColor=white" alt="Visit Portfolio"/>
+  </a>
+  <a href="https://github.com/shweshd">
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+  <a href="https://www.linkedin.com/in/shweshdubey/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
 
 ---
 
 ## 📌 About
 
-This is my personal portfolio website, created to present my development work, technical skills, projects, education, and career direction.
+This is my personal portfolio website, created to showcase my **education, technical skills, development tools, projects, and software development journey**.
 
-I am a BCA student focused on building strong foundations in programming, software development, and computer science. I believe in learning by understanding concepts deeply and applying them through practical projects.
+I am a BCA student focused on building strong foundations in **programming, software development, and computer science**.
 
-Currently, my primary focus is **Python development**, while strengthening my knowledge of:
+My current primary focus is **Python development**, while strengthening my knowledge of:
 
-* Data Structures & Algorithms
-* Backend Development
-* Databases
-* Linux
-* Software Engineering Fundamentals
+- Data Structures & Algorithms
+- Backend Development
+- Databases
+- Linux
+- Software Engineering Fundamentals
 
 My long-term goal is to build **scalable backend systems** and develop expertise in **Artificial Intelligence and modern software architecture**.
 
-I am actively looking for opportunities to work on real-world projects, solve meaningful problems, and grow as a software engineer.
+I believe in learning by understanding concepts deeply and applying them through practical projects.
+
+---
+
+## 🌐 Portfolio Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e3543661-f7d0-482a-ad7b-cf45da116dfd" width="32%" alt="Portfolio Home Page"/>
+  <img src="https://github.com/user-attachments/assets/c0a23f01-2bfc-41df-9ca7-ec03f0fac87c" width="32%" alt="Portfolio Skills and Tools"/>
+  <img src="https://github.com/user-attachments/assets/7cf1d079-82dc-43ac-ae29-486126387223" width="32%" alt="Portfolio Contact Section"/>
+</p>
+
+<p align="center">
+  <i>Selected screenshots from the portfolio website</i>
+</p>
+
+
+---
+
+## ✨ Features
+
+- Fully responsive design
+- Modern glassmorphism-inspired UI
+- Animated background
+- Interactive particle background
+- Custom cursor effects
+- Smooth scrolling navigation
+- Animated text effects
+- Typing animation
+- Hover interactions
+- Scroll reveal animations
+- Interactive project cards
+- Responsive navigation
+- Downloadable CV
+- Scroll-to-top button
+- GitHub project links
+- Live project demonstrations
+- Dedicated contact section
 
 ---
 
@@ -32,102 +79,82 @@ I am actively looking for opportunities to work on real-world projects, solve me
 
 ### Programming & Web Technologies
 
-* Python
-* HTML5
-* CSS3
-* JavaScript
-* MySQL
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
 
 ### Development Tools
 
-* Visual Studio Code
-* Git
-* GitHub
+<p>
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
 ---
 
-## ✨ Features
+# 📂 Website Sections
 
-* Fully responsive design
-* Modern glassmorphism UI
-* Animated background video
-* Interactive particle background
-* Custom cursor system
-* Smooth scrolling navigation
-* Animated text effects
-* Typing text animation
-* Hover effects
-* Scroll reveal animations
-* Interactive project cards
-* Download CV button
-* Scroll-to-top button
-* Responsive navigation
-* Contact section
-* GitHub project links
-* Live project demonstrations
+## 🏠 Home
+
+The landing section introduces:
+
+- My name
+- Developer-focused introduction
+- Current role
+- Profile image
+- Project navigation
+- Contact navigation
+- Download CV button
 
 ---
 
-## 📂 Website Sections
-
-### 🏠 Home
-
-The landing section introduces me with:
-
-* Name
-* Developer-focused introduction
-* Animated role/title
-* Profile image
-* Project navigation
-* Contact navigation
-* Download CV button
-
----
-
-### 👨‍💻 About
+## 👨‍💻 About
 
 The About section describes my development journey, current learning focus, programming interests, and long-term career direction.
 
-My current focus includes:
+### Current Focus
 
-* Python Development
-* Data Structures & Algorithms
-* Backend Development
-* Databases
-* Linux
-* Software Engineering
-* Artificial Intelligence
-* Modern Software Architecture
+- Python Development
+- Data Structures & Algorithms
+- Backend Development
+- Databases
+- Linux
+- Software Engineering
+- Artificial Intelligence
+- Modern Software Architecture
 
 ---
 
-### 🎓 Education
+## 🎓 Education
 
-**Bachelor of Computer Applications (BCA)**
+### Bachelor of Computer Applications — BCA
 
 **2025 – 2028**
 
----
-
-### 🧠 Skills
-
-The portfolio currently showcases the following technical skills:
-
-* Python
-* HTML5
-* CSS3
-* JavaScript
-* MySQL
+Currently pursuing my BCA while developing practical programming and software engineering skills through personal projects.
 
 ---
 
-### 🛠️ Development Tools
+## 🧠 Skills
 
 The portfolio currently showcases:
 
-* Visual Studio Code
-* Git
-* GitHub
+- Python
+- HTML5
+- CSS3
+- JavaScript
+- MySQL
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
 
 ---
 
@@ -135,20 +162,14 @@ The portfolio currently showcases:
 
 The Projects section primarily showcases my **Python programming journey**, along with frontend development projects.
 
-The projects are presented in the following order:
-
----
-
 ## 🔐 Password Manager
 
-A Python-based password manager that securely generates, stores, and retrieves passwords using encryption.
+A Python-based password manager designed to generate, store, and retrieve passwords using encryption.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Password-Manager)
+**Source Code:**  
+https://github.com/shweshd/Password-Manager
 
 ---
 
@@ -156,12 +177,10 @@ A Python-based password manager that securely generates, stores, and retrieves p
 
 A Python password generator that creates customizable passwords using letters, numbers, and special characters.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Password-Generator)
+**Source Code:**  
+https://github.com/shweshd/Password-Generator
 
 ---
 
@@ -169,12 +188,10 @@ A Python password generator that creates customizable passwords using letters, n
 
 A Python alarm clock application that allows users to set countdown timers and plays an alarm when the timer reaches zero.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Alarm-Clock)
+**Source Code:**  
+https://github.com/shweshd/Alarm-Clock
 
 ---
 
@@ -182,12 +199,10 @@ A Python alarm clock application that allows users to set countdown timers and p
 
 A terminal-based typing speed test built with Python that measures typing speed and accuracy.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/WPM-Typing-Test)
+**Source Code:**  
+https://github.com/shweshd/WPM-Typing-Test
 
 ---
 
@@ -197,12 +212,12 @@ A Python terminal-based pathfinding project that finds the shortest route throug
 
 **Technologies:**
 
-* Python
-* Algorithms
-* Curses
+- Python
+- Algorithms
+- Curses
 
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Shortest-Path-Finder)
+**Source Code:**  
+https://github.com/shweshd/Shortest-Path-Finder
 
 ---
 
@@ -210,12 +225,10 @@ A Python terminal-based pathfinding project that finds the shortest route throug
 
 A 10-question terminal-based quiz game built with Python to practice fundamental programming concepts.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Quiz-Game)
+**Source Code:**  
+https://github.com/shweshd/Quiz-Game
 
 ---
 
@@ -223,12 +236,10 @@ A 10-question terminal-based quiz game built with Python to practice fundamental
 
 A Python-based Rock Paper Scissors game where the player competes against a computer-controlled opponent.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Rock-Paper-Scissors)
+**Source Code:**  
+https://github.com/shweshd/Rock-Paper-Scissors
 
 ---
 
@@ -236,12 +247,10 @@ A Python-based Rock Paper Scissors game where the player competes against a comp
 
 A Python game where players try to guess a randomly generated number with helpful hints after each attempt.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Number-Guessing-Game)
+**Source Code:**  
+https://github.com/shweshd/Number-Guessing-Game
 
 ---
 
@@ -251,11 +260,11 @@ A graphical Python racing game using the Turtle module, featuring multiple racer
 
 **Technologies:**
 
-* Python
-* Turtle
+- Python
+- Turtle
 
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Turtle-Racing)
+**Source Code:**  
+https://github.com/shweshd/Turtle-Racing
 
 ---
 
@@ -263,18 +272,16 @@ A graphical Python racing game using the Turtle module, featuring multiple racer
 
 A command-line slot machine game built with Python featuring:
 
-* Betting logic
-* Randomized symbols
-* Winning lines
-* Balance management
-* Input validation
+- Betting logic
+- Randomized symbols
+- Winning lines
+- Balance management
+- Input validation
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Slot-Machine)
+**Source Code:**  
+https://github.com/shweshd/Slot-Machine
 
 ---
 
@@ -282,12 +289,10 @@ A command-line slot machine game built with Python featuring:
 
 A Python command-line math game that generates random problems, measures completion time, tracks incorrect attempts, and handles invalid user input.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Timed-math-challenge)
+**Source Code:**  
+https://github.com/shweshd/Timed-math-challenge
 
 ---
 
@@ -297,11 +302,11 @@ A Python program that reads a story from a text file, detects placeholders, coll
 
 **Technologies:**
 
-* Python
-* File Handling
+- Python
+- File Handling
 
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Madlibs-Generator)
+**Source Code:**  
+https://github.com/shweshd/Madlibs-Generator
 
 ---
 
@@ -309,30 +314,28 @@ A Python program that reads a story from a text file, detects placeholders, coll
 
 An interactive text-based adventure game built with Python where players make choices that determine the outcome.
 
-**Technology:**
+**Technology:** Python
 
-* Python
-
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/Choose-your-own-adventure)
+**Source Code:**  
+https://github.com/shweshd/Choose-your-own-adventure
 
 ---
 
 ## 🏢 RiskCube Institute Official Website
 
-A clean and responsive front-end website developed for RiskCube Institute, designed to provide a seamless user experience across different devices.
+A clean and responsive frontend website developed for RiskCube Institute, designed to provide a seamless experience across different devices.
 
 **Technologies:**
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/RiskCube-Institute-Official-Website)
+**Source Code:**  
+https://github.com/shweshd/RiskCube-Institute-Official-Website
 
-**Live Demo:**
-[View Project](https://shweshd.github.io/RiskCube-Institute-Official-Website/)
+**Live Demo:**  
+https://shweshd.github.io/RiskCube-Institute-Official-Website/
 
 ---
 
@@ -342,40 +345,43 @@ A responsive YouTube homepage clone built using pure HTML and CSS, recreating th
 
 **Technologies:**
 
-* HTML5
-* CSS3
+- HTML5
+- CSS3
 
 **Features:**
 
-* Responsive layout
-* YouTube-inspired interface
-* Structured HTML
-* CSS-based styling and layout
+- Responsive layout
+- YouTube-inspired interface
+- Structured HTML
+- CSS-based styling and layout
 
-**Source Code:**
-[GitHub Repository](https://github.com/shweshd/YouTube-Clone)
+**Source Code:**  
+https://github.com/shweshd/YouTube-Clone
 
-**Live Demo:**
-[View Project](https://shweshd.github.io/YouTube-Clone/)
+**Live Demo:**  
+https://shweshd.github.io/YouTube-Clone/
 
 ---
 
 # 🎨 Design
 
-The portfolio uses a modern **glassmorphism-inspired visual style** combined with interactive animations.
+The portfolio combines a **dark futuristic interface** with glassmorphism and interactive animations.
 
 ### Design Elements
 
-* Glassmorphism cards
-* Animated background video
-* Interactive particle background
-* Custom cursor effects
-* Smooth scrolling
-* Animated UI elements
-* Hover effects
-* Scroll reveal animations
-* Responsive layouts
-* Interactive project cards
+- Dark navy background
+- Cyan accent color
+- Glassmorphism cards
+- Animated background
+- Particle network effects
+- Custom cursor
+- Smooth scrolling
+- Hover animations
+- Scroll reveal effects
+- Responsive layouts
+- Interactive project cards
+
+The visual design is intended to create a modern developer-focused identity while keeping the interface clean and readable.
 
 ---
 
@@ -388,6 +394,11 @@ Portfolio/
 ├── style.css
 ├── script.js
 │
+├── screenshots/
+│   ├── home.png
+│   ├── skills.png
+│   └── contact.png
+│
 ├── shwesh-blue-img-square.webp
 ├── 201735-916310640_medium.mp4
 ├── Shwesh-Dubey-Resume-WD.pdf
@@ -395,56 +406,3 @@ Portfolio/
 │
 ├── .gitignore
 └── README.md
-```
-
----
-
-# 📬 Contact
-
-I am open to:
-
-* Internships
-* Collaborations
-* Learning opportunities
-* Real-world software development projects
-
-### Email
-
-[shweshd@gmail.com](mailto:shweshd@gmail.com)
-
-### LinkedIn
-
-[linkedin.com/in/shweshdubey](https://www.linkedin.com/in/shweshdubey)
-
-### GitHub
-
-[github.com/shweshd](https://github.com/shweshd)
-
-### Location
-
-Mumbai, Maharashtra, India
-
----
-
-# 📄 Resume
-
-A downloadable CV is available directly from the portfolio website through the **Download CV** button.
-
----
-
-## 👨‍💻 Built With
-
-* HTML5
-* CSS3
-* JavaScript
-
----
-
-## © 2026 Shwesh Dubey
-
-Built with HTML, CSS, and JavaScript.
-
-```
-
-This version now matches the HTML's **actual 15-project sequence** and its current sections/content rather than the older README description.
-```
