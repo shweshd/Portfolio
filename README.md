@@ -74,116 +74,168 @@ A collection of Python, frontend, and software development projects.
 Python-based password manager for generating, storing, and retrieving passwords.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Password-Manager
+
+<a href="https://github.com/shweshd/Password-Manager">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Password Manager"/>
+</a>
 
 ### 🔑 Password Generator
 
 Customizable password generator using letters, numbers, and special characters.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Password-Generator
+
+<a href="https://github.com/shweshd/Password-Generator">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Password Generator"/>
+</a>
 
 ### ⏰ Alarm Clock
 
 Python alarm application with countdown timer and alarm functionality.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Alarm-Clock
+
+<a href="https://github.com/shweshd/Alarm-Clock">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Alarm Clock"/>
+</a>
 
 ### ⌨️ WPM Typing Test
 
 Terminal-based typing speed and accuracy testing application.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/WPM-Typing-Test
+
+<a href="https://github.com/shweshd/WPM-Typing-Test">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit WPM Typing Test"/>
+</a>
 
 ### 🗺️ Shortest Path Finder
 
 Terminal-based pathfinding project that finds routes through a maze using graph-search concepts.
 
 **Technologies:** Python, Algorithms, Curses
-**Source:** https://github.com/shweshd/Shortest-Path-Finder
+
+<a href="https://github.com/shweshd/Shortest-Path-Finder">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Shortest Path Finder"/>
+</a>
 
 ### ▶️ Python Media Downloader
 
 Python-based media downloader using `yt-dlp` with a simple interface for downloading online video and audio.
 
 **Technologies:** Python, yt-dlp
-**Source:** https://github.com/shweshd/Python-Media-Downloader
+
+<a href="https://github.com/shweshd/Python-Media-Downloader">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Python Media Downloader"/>
+</a>
 
 ### 🧠 Python Quiz Game
 
 10-question terminal-based quiz game for practicing programming concepts.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Quiz-Game
+
+<a href="https://github.com/shweshd/Quiz-Game">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Quiz Game"/>
+</a>
 
 ### ✊ Rock Paper Scissors
 
 Python game where the player competes against a computer-controlled opponent.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Rock-Paper-Scissors
+
+<a href="https://github.com/shweshd/Rock-Paper-Scissors">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Rock Paper Scissors"/>
+</a>
 
 ### 🔢 Number Guessing Game
 
 Number guessing game with randomly generated numbers and hints.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Number-Guessing-Game
+
+<a href="https://github.com/shweshd/Number-Guessing-Game">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Number Guessing Game"/>
+</a>
 
 ### 🐢 Turtle Racing
 
 Graphical racing game using Python's Turtle module with multiple randomized racers.
 
 **Technologies:** Python, Turtle
-**Source:** https://github.com/shweshd/Turtle-Racing
+
+<a href="https://github.com/shweshd/Turtle-Racing">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Turtle Racing"/>
+</a>
 
 ### 🎰 Python Slot Machine
 
 Command-line slot machine featuring betting logic, randomized symbols, winning lines, and balance management.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Slot-Machine
+
+<a href="https://github.com/shweshd/Slot-Machine">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Slot Machine"/>
+</a>
 
 ### ⏱️ Timed Math Challenge
 
 Timed command-line math game with random problems, incorrect-attempt tracking, and input validation.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Timed-math-challenge
+
+<a href="https://github.com/shweshd/Timed-math-challenge">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Timed Math Challenge"/>
+</a>
 
 ### 📝 Mad Libs Generator
 
 Python program that reads a story, detects placeholders, collects user input, and generates a customized story.
 
 **Technologies:** Python, File Handling
-**Source:** https://github.com/shweshd/Madlibs-Generator
+
+<a href="https://github.com/shweshd/Madlibs-Generator">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Mad Libs Generator"/>
+</a>
 
 ### 🗺️ Choose Your Own Adventure
 
 Interactive text-based adventure game where player choices determine the outcome.
 
 **Technology:** Python
-**Source:** https://github.com/shweshd/Choose-your-own-adventure
+
+<a href="https://github.com/shweshd/Choose-your-own-adventure">
+  <img src="https://img.shields.io/badge/VISIT-4169E1?style=for-the-badge" alt="Visit Choose Your Own Adventure"/>
+</a>
 
 ### 🏢 RiskCube Institute Official Website
 
 Responsive frontend website developed for RiskCube Institute.
 
 **Technologies:** HTML5, CSS3, JavaScript
-**Source:** https://github.com/shweshd/RiskCube-Institute-Official-Website
-**Live Demo:** https://shweshd.github.io/RiskCube-Institute-Official-Website/
+
+<a href="https://github.com/shweshd/RiskCube-Institute-Official-Website">
+  <img src="https://img.shields.io/badge/VISIT%20CODE-FFFFFF?style=for-the-badge&labelColor=FFFFFF&color=FFFFFF" alt="Visit Code"/>
+</a>
+
+<a href="https://shweshd.github.io/RiskCube-Institute-Official-Website/">
+  <img src="https://img.shields.io/badge/VISIT%20WEBSITE-B8860B?style=for-the-badge&labelColor=B8860B&color=B8860B" alt="Visit Website"/>
+</a>
 
 ### ▶️ YouTube Clone
 
 Responsive YouTube homepage clone built using pure HTML and CSS.
 
 **Technologies:** HTML5, CSS3
-**Source:** https://github.com/shweshd/YouTube-Clone
-**Live Demo:** https://shweshd.github.io/YouTube-Clone/
 
----
+<a href="https://github.com/shweshd/YouTube-Clone">
+  <img src="https://img.shields.io/badge/VISIT%20CODE-FFFFFF?style=for-the-badge&labelColor=FFFFFF&color=FFFFFF" alt="Visit Code"/>
+</a>
+
+<a href="https://shweshd.github.io/YouTube-Clone/">
+  <img src="https://img.shields.io/badge/VISIT%20WEBSITE-B8860B?style=for-the-badge&labelColor=B8860B&color=B8860B" alt="Visit Website"/>
+</a>
 
 # 🎨 Design
 
@@ -229,7 +281,3 @@ Portfolio/
 ```
 
 ---
-
-## 🌐 Live Portfolio
-
-https://shweshd.github.io/Portfolio/
