@@ -6,11 +6,13 @@
 
 <p align="center">
   <a href="https://shweshd.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/%F0%9F%8C%90%20Visit%20My%20Portfolio-00D9FF?style=for-the-badge&logoColor=white" alt="Visit Portfolio"/>
+    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-4169E1?style=for-the-badge&logoColor=white" alt="Visit Portfolio"/>
   </a>
+
   <a href="https://github.com/shweshd">
     <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
+
   <a href="https://www.linkedin.com/in/shweshdubey/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
