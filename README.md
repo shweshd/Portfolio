@@ -20,64 +20,32 @@
 
 ## 📌 About
 
-This is my personal portfolio website, created to showcase my **education, technical skills, development tools, projects, and software development journey**.
+This is my personal portfolio website showcasing my **education, technical skills, development tools, projects, and software development journey**.
 
-I am a BCA student focused on building strong foundations in **programming, software development, and computer science**.
-
-My current primary focus is **Python development**, while strengthening my knowledge of:
-
-- Data Structures & Algorithms
-- Backend Development
-- Databases
-- Linux
-- Software Engineering Fundamentals
+I am a BCA student currently focused on **Python, SQL, backend development, databases, and computer science fundamentals**.
 
 My long-term goal is to build **scalable backend systems** and develop expertise in **Artificial Intelligence and modern software architecture**.
-
-I believe in learning by understanding concepts deeply and applying them through practical projects.
-
----
-
-## 🌐 Portfolio Preview
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/e3543661-f7d0-482a-ad7b-cf45da116dfd" width="32%" alt="Portfolio Home Page"/>
-  <img src="https://github.com/user-attachments/assets/c0a23f01-2bfc-41df-9ca7-ec03f0fac87c" width="32%" alt="Portfolio Skills and Tools"/>
-  <img src="https://github.com/user-attachments/assets/7cf1d079-82dc-43ac-ae29-486126387223" width="32%" alt="Portfolio Contact Section"/>
-</p>
-
-<p align="center">
-  <i>Selected screenshots from the portfolio website</i>
-</p>
-
 
 ---
 
 ## ✨ Features
 
-- Fully responsive design
-- Modern glassmorphism-inspired UI
-- Animated background
-- Interactive particle background
-- Custom cursor effects
-- Smooth scrolling navigation
-- Animated text effects
-- Typing animation
-- Hover interactions
-- Scroll reveal animations
-- Interactive project cards
-- Responsive navigation
-- Downloadable CV
-- Scroll-to-top button
-- GitHub project links
-- Live project demonstrations
-- Dedicated contact section
+* Responsive design
+* Modern glassmorphism UI
+* Animated background and particles
+* Custom cursor effects
+* Smooth scrolling
+* Typing and text animations
+* Scroll reveal animations
+* Interactive project cards
+* Downloadable CV
+* GitHub project links
+* Live project demonstrations
+* Contact section
 
 ---
 
-## 🛠️ Technologies Used
-
-### Programming & Web Technologies
+## 🛠️ Technologies
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -87,301 +55,147 @@ I believe in learning by understanding concepts deeply and applying them through
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
-### Development Tools
+### Tools
 
-<p>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
-
----
-
-# 📂 Website Sections
-
-## 🏠 Home
-
-The landing section introduces:
-
-- My name
-- Developer-focused introduction
-- Current role
-- Profile image
-- Project navigation
-- Contact navigation
-- Download CV button
-
----
-
-## 👨‍💻 About
-
-The About section describes my development journey, current learning focus, programming interests, and long-term career direction.
-
-### Current Focus
-
-- Python Development
-- Data Structures & Algorithms
-- Backend Development
-- Databases
-- Linux
-- Software Engineering
-- Artificial Intelligence
-- Modern Software Architecture
-
----
-
-## 🎓 Education
-
-### Bachelor of Computer Applications — BCA
-
-**2025 – 2028**
-
-Currently pursuing my BCA while developing practical programming and software engineering skills through personal projects.
-
----
-
-## 🧠 Skills
-
-The portfolio currently showcases:
-
-- Python
-- HTML5
-- CSS3
-- JavaScript
-- MySQL
-
-### Development Tools
-
-- Visual Studio Code
-- Git
-- GitHub
+* Visual Studio Code
+* Git
+* GitHub
 
 ---
 
 # 💻 Projects
 
-The Projects section primarily showcases my **Python programming journey**, along with frontend development projects.
+A collection of Python, frontend, and software development projects.
 
-## 🔐 Password Manager
+### 🔐 Password Manager
 
-A Python-based password manager designed to generate, store, and retrieve passwords using encryption.
-
-**Technology:** Python
-
-**Source Code:**  
-https://github.com/shweshd/Password-Manager
-
----
-
-## 🔑 Password Generator
-
-A Python password generator that creates customizable passwords using letters, numbers, and special characters.
+Python-based password manager for generating, storing, and retrieving passwords.
 
 **Technology:** Python
+**Source:** https://github.com/shweshd/Password-Manager
 
-**Source Code:**  
-https://github.com/shweshd/Password-Generator
+### 🔑 Password Generator
 
----
-
-## ⏰ Alarm Clock
-
-A Python alarm clock application that allows users to set countdown timers and plays an alarm when the timer reaches zero.
+Customizable password generator using letters, numbers, and special characters.
 
 **Technology:** Python
+**Source:** https://github.com/shweshd/Password-Generator
 
-**Source Code:**  
-https://github.com/shweshd/Alarm-Clock
+### ⏰ Alarm Clock
 
----
-
-## ⌨️ WPM Typing Test
-
-A terminal-based typing speed test built with Python that measures typing speed and accuracy.
+Python alarm application with countdown timer and alarm functionality.
 
 **Technology:** Python
+**Source:** https://github.com/shweshd/Alarm-Clock
 
-**Source Code:**  
-https://github.com/shweshd/WPM-Typing-Test
+### ⌨️ WPM Typing Test
 
----
-
-## 🗺️ Shortest Path Finder
-
-A Python terminal-based pathfinding project that finds the shortest route through a maze using graph-search concepts.
-
-**Technologies:**
-
-- Python
-- Algorithms
-- Curses
-
-**Source Code:**  
-https://github.com/shweshd/Shortest-Path-Finder
-
----
-
-## 🧠 Python Quiz Game
-
-A 10-question terminal-based quiz game built with Python to practice fundamental programming concepts.
+Terminal-based typing speed and accuracy testing application.
 
 **Technology:** Python
+**Source:** https://github.com/shweshd/WPM-Typing-Test
 
-**Source Code:**  
-https://github.com/shweshd/Quiz-Game
+### 🗺️ Shortest Path Finder
 
----
+Terminal-based pathfinding project that finds routes through a maze using graph-search concepts.
 
-## ✊ Rock Paper Scissors
+**Technologies:** Python, Algorithms, Curses
+**Source:** https://github.com/shweshd/Shortest-Path-Finder
 
-A Python-based Rock Paper Scissors game where the player competes against a computer-controlled opponent.
+### ▶️ Python Media Downloader
 
-**Technology:** Python
+Python-based media downloader using `yt-dlp` with a simple interface for downloading online video and audio.
 
-**Source Code:**  
-https://github.com/shweshd/Rock-Paper-Scissors
+**Technologies:** Python, yt-dlp
+**Source:** https://github.com/shweshd/Python-Media-Downloader
 
----
+### 🧠 Python Quiz Game
 
-## 🔢 Number Guessing Game
-
-A Python game where players try to guess a randomly generated number with helpful hints after each attempt.
-
-**Technology:** Python
-
-**Source Code:**  
-https://github.com/shweshd/Number-Guessing-Game
-
----
-
-## 🐢 Turtle Racing
-
-A graphical Python racing game using the Turtle module, featuring multiple racers and randomized movement.
-
-**Technologies:**
-
-- Python
-- Turtle
-
-**Source Code:**  
-https://github.com/shweshd/Turtle-Racing
-
----
-
-## 🎰 Python Slot Machine
-
-A command-line slot machine game built with Python featuring:
-
-- Betting logic
-- Randomized symbols
-- Winning lines
-- Balance management
-- Input validation
+10-question terminal-based quiz game for practicing programming concepts.
 
 **Technology:** Python
+**Source:** https://github.com/shweshd/Quiz-Game
 
-**Source Code:**  
-https://github.com/shweshd/Slot-Machine
+### ✊ Rock Paper Scissors
 
----
-
-## ⏱️ Timed Math Challenge
-
-A Python command-line math game that generates random problems, measures completion time, tracks incorrect attempts, and handles invalid user input.
+Python game where the player competes against a computer-controlled opponent.
 
 **Technology:** Python
+**Source:** https://github.com/shweshd/Rock-Paper-Scissors
 
-**Source Code:**  
-https://github.com/shweshd/Timed-math-challenge
+### 🔢 Number Guessing Game
 
----
-
-## 📝 Mad Libs Generator
-
-A Python program that reads a story from a text file, detects placeholders, collects user input, and generates a customized story.
-
-**Technologies:**
-
-- Python
-- File Handling
-
-**Source Code:**  
-https://github.com/shweshd/Madlibs-Generator
-
----
-
-## 🗺️ Choose Your Own Adventure
-
-An interactive text-based adventure game built with Python where players make choices that determine the outcome.
+Number guessing game with randomly generated numbers and hints.
 
 **Technology:** Python
+**Source:** https://github.com/shweshd/Number-Guessing-Game
 
-**Source Code:**  
-https://github.com/shweshd/Choose-your-own-adventure
+### 🐢 Turtle Racing
 
----
+Graphical racing game using Python's Turtle module with multiple randomized racers.
 
-## 🏢 RiskCube Institute Official Website
+**Technologies:** Python, Turtle
+**Source:** https://github.com/shweshd/Turtle-Racing
 
-A clean and responsive frontend website developed for RiskCube Institute, designed to provide a seamless experience across different devices.
+### 🎰 Python Slot Machine
 
-**Technologies:**
+Command-line slot machine featuring betting logic, randomized symbols, winning lines, and balance management.
 
-- HTML5
-- CSS3
-- JavaScript
+**Technology:** Python
+**Source:** https://github.com/shweshd/Slot-Machine
 
-**Source Code:**  
-https://github.com/shweshd/RiskCube-Institute-Official-Website
+### ⏱️ Timed Math Challenge
 
-**Live Demo:**  
-https://shweshd.github.io/RiskCube-Institute-Official-Website/
+Timed command-line math game with random problems, incorrect-attempt tracking, and input validation.
 
----
+**Technology:** Python
+**Source:** https://github.com/shweshd/Timed-math-challenge
 
-## ▶️ YouTube Clone
+### 📝 Mad Libs Generator
 
-A responsive YouTube homepage clone built using pure HTML and CSS, recreating the structure and visual layout of the YouTube homepage.
+Python program that reads a story, detects placeholders, collects user input, and generates a customized story.
 
-**Technologies:**
+**Technologies:** Python, File Handling
+**Source:** https://github.com/shweshd/Madlibs-Generator
 
-- HTML5
-- CSS3
+### 🗺️ Choose Your Own Adventure
 
-**Features:**
+Interactive text-based adventure game where player choices determine the outcome.
 
-- Responsive layout
-- YouTube-inspired interface
-- Structured HTML
-- CSS-based styling and layout
+**Technology:** Python
+**Source:** https://github.com/shweshd/Choose-your-own-adventure
 
-**Source Code:**  
-https://github.com/shweshd/YouTube-Clone
+### 🏢 RiskCube Institute Official Website
 
-**Live Demo:**  
-https://shweshd.github.io/YouTube-Clone/
+Responsive frontend website developed for RiskCube Institute.
+
+**Technologies:** HTML5, CSS3, JavaScript
+**Source:** https://github.com/shweshd/RiskCube-Institute-Official-Website
+**Live Demo:** https://shweshd.github.io/RiskCube-Institute-Official-Website/
+
+### ▶️ YouTube Clone
+
+Responsive YouTube homepage clone built using pure HTML and CSS.
+
+**Technologies:** HTML5, CSS3
+**Source:** https://github.com/shweshd/YouTube-Clone
+**Live Demo:** https://shweshd.github.io/YouTube-Clone/
 
 ---
 
 # 🎨 Design
 
-The portfolio combines a **dark futuristic interface** with glassmorphism and interactive animations.
+The portfolio uses a **dark futuristic interface** combining:
 
-### Design Elements
-
-- Dark navy background
-- Cyan accent color
-- Glassmorphism cards
-- Animated background
-- Particle network effects
-- Custom cursor
-- Smooth scrolling
-- Hover animations
-- Scroll reveal effects
-- Responsive layouts
-- Interactive project cards
-
-The visual design is intended to create a modern developer-focused identity while keeping the interface clean and readable.
+* Dark navy background
+* Cyan accents
+* Glassmorphism cards
+* Particle effects
+* Custom cursor
+* Smooth scrolling
+* Hover animations
+* Scroll reveal effects
+* Responsive layouts
 
 ---
 
@@ -393,6 +207,10 @@ Portfolio/
 ├── index.html
 ├── style.css
 ├── script.js
+│
+├── assets/
+│   ├── images/
+│   └── pdfs/
 │
 ├── screenshots/
 │   ├── home.png
@@ -406,3 +224,10 @@ Portfolio/
 │
 ├── .gitignore
 └── README.md
+```
+
+---
+
+## 🌐 Live Portfolio
+
+https://shweshd.github.io/Portfolio/
