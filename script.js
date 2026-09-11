@@ -471,21 +471,139 @@ function buildTower(group) {
    NAME GLITCH HOVER SOUND
 ========================================================= */
 
+/* =========================================================
+   NAME GLITCH HOVER SOUND
+========================================================= */
+
 const glitchSound = new Audio('assets/glitch.mp3');
+
 glitchSound.volume = 0.2;
 glitchSound.loop = true;
+glitchSound.preload = 'auto';
 
 const glitchName = document.querySelector('.glitch');
-if (glitchName) {
-  glitchName.addEventListener('mouseenter', () => {
-    glitchSound.currentTime = 0;
-    glitchSound.play().catch(() => {});
+
+let glitchSoundEnabled = false;
+let glitchSoundPromptShown = false;
+
+
+/* =========================================================
+   SOUND ENABLE POPUP
+========================================================= */
+
+function showGlitchSoundPrompt() {
+
+  if (glitchSoundPromptShown || glitchSoundEnabled) return;
+
+  glitchSoundPromptShown = true;
+
+  const popup = document.createElement('div');
+
+  popup.id = 'glitch-sound-prompt';
+
+  popup.innerHTML = `
+    <div class="glitch-sound-box">
+
+      <div class="glitch-sound-icon">🔊</div>
+
+      <div class="glitch-sound-title">
+        Enable Sound
+      </div>
+
+      <div class="glitch-sound-text">
+        Turn up your volume and enable sound
+        to hear the glitch effect.
+      </div>
+
+      <button id="enable-glitch-sound">
+        ENABLE SOUND
+      </button>
+
+    </div>
+  `;
+
+  document.body.appendChild(popup);
+
+
+  const enableButton =
+    document.getElementById('enable-glitch-sound');
+
+
+  enableButton.addEventListener('click', async () => {
+
+    try {
+
+      glitchSound.muted = false;
+      glitchSound.volume = 0.2;
+      glitchSound.currentTime = 0;
+
+      await glitchSound.play();
+
+      glitchSoundEnabled = true;
+
+      /* Stop after a short preview */
+      setTimeout(() => {
+
+        glitchSound.pause();
+        glitchSound.currentTime = 0;
+
+      }, 500);
+
+
+      popup.remove();
+
+    } catch (error) {
+
+      console.log('Sound could not be enabled.');
+
+    }
+
   });
 
+}
+
+
+/* =========================================================
+   FIRST HOVER
+========================================================= */
+
+if (glitchName) {
+
+  glitchName.addEventListener('mouseenter', () => {
+
+    /* First hover → show instruction */
+    if (!glitchSoundEnabled) {
+
+      showGlitchSoundPrompt();
+
+      return;
+
+    }
+
+
+    /* Normal hover after sound is enabled */
+
+    glitchSound.currentTime = 0;
+    glitchSound.volume = 0.2;
+
+    glitchSound.play().catch(() => {});
+
+  });
+
+
+  /* =======================================================
+     STOP SOUND
+  ======================================================= */
+
   glitchName.addEventListener('mouseleave', () => {
+
+    if (!glitchSoundEnabled) return;
+
     glitchSound.pause();
     glitchSound.currentTime = 0;
+
   });
+
 }
 
 /* =========================================================
@@ -1296,35 +1414,63 @@ class ScrollController {
 
 /* =========================================================
    CUSTOM CURSOR
-========================================================= */
+   ========================================================= */
 
 function setupCustomCursor() {
   const dot = document.querySelector('.cursor-dot');
   const ring = document.querySelector('.cursor-ring');
+
   if (!dot || !ring) return;
 
-  let mouseX = 0;
-  let mouseY = 0;
-  let ringX = 0;
-  let ringY = 0;
+  let mouseX = window.innerWidth / 2;
+  let mouseY = window.innerHeight / 2;
+
+  let dotX = mouseX;
+  let dotY = mouseY;
+
+  let ringX = mouseX;
+  let ringY = mouseY;
+
+  let lastTime = performance.now();
 
   document.addEventListener('mousemove', (event) => {
     mouseX = event.clientX;
     mouseY = event.clientY;
-    dot.style.left = `${mouseX}px`;
-    dot.style.top = `${mouseY}px`;
   });
 
-  function animateCursor() {
-    ringX += (mouseX - ringX) * 0.25;
-    ringY += (mouseY - ringY) * 0.25;
+  function animateCursor(currentTime) {
+    const delta = Math.min((currentTime - lastTime) / 1000, 0.05);
+    lastTime = currentTime;
+
+    /*
+      Frame-rate independent smoothing.
+      Higher value = faster response.
+      Lower value = smoother / more trailing.
+    */
+    const dotSmooth = 1 - Math.pow(0.001, delta * 10);
+    const ringSmooth = 1 - Math.pow(0.001, delta * 1);
+
+    // Smooth dot
+    dotX += (mouseX - dotX) * dotSmooth;
+    dotY += (mouseY - dotY) * dotSmooth;
+
+    // Extra-smooth ring
+    ringX += (mouseX - ringX) * ringSmooth;
+    ringY += (mouseY - ringY) * ringSmooth;
+
+    dot.style.left = `${dotX}px`;
+    dot.style.top = `${dotY}px`;
+
     ring.style.left = `${ringX}px`;
     ring.style.top = `${ringY}px`;
+
     requestAnimationFrame(animateCursor);
   }
-  animateCursor();
 
-  const interactiveSelector = 'a, button, .skill-chip, .project-card, .modal-close';
+  requestAnimationFrame(animateCursor);
+
+  const interactiveSelector =
+    'a, button, .skill-chip, .project-card, .modal-close';
 
   document.addEventListener('mouseover', (event) => {
     if (event.target.closest(interactiveSelector)) {
