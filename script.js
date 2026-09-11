@@ -471,10 +471,6 @@ function buildTower(group) {
    NAME GLITCH HOVER SOUND
 ========================================================= */
 
-/* =========================================================
-   NAME GLITCH HOVER SOUND
-========================================================= */
-
 const glitchSound = new Audio('assets/glitch.mp3');
 
 glitchSound.volume = 0.2;
@@ -485,11 +481,6 @@ const glitchName = document.querySelector('.glitch');
 
 let glitchSoundEnabled = false;
 let glitchSoundPromptShown = false;
-
-
-/* =========================================================
-   SOUND ENABLE POPUP
-========================================================= */
 
 function showGlitchSoundPrompt() {
 
@@ -504,19 +495,17 @@ function showGlitchSoundPrompt() {
   popup.innerHTML = `
     <div class="glitch-sound-box">
 
-      <div class="glitch-sound-icon">🔊</div>
-
       <div class="glitch-sound-title">
-        Enable Sound
+        Sound is disabled
       </div>
 
       <div class="glitch-sound-text">
-        Turn up your volume and enable sound
-        to hear the glitch effect.
+        Enable sound to hear the glitch effect
+        when hovering over the developer name.
       </div>
 
       <button id="enable-glitch-sound">
-        ENABLE SOUND
+        Enable Sound
       </button>
 
     </div>
@@ -524,10 +513,8 @@ function showGlitchSoundPrompt() {
 
   document.body.appendChild(popup);
 
-
   const enableButton =
     document.getElementById('enable-glitch-sound');
-
 
   enableButton.addEventListener('click', async () => {
 
@@ -541,14 +528,12 @@ function showGlitchSoundPrompt() {
 
       glitchSoundEnabled = true;
 
-      /* Stop after a short preview */
       setTimeout(() => {
 
         glitchSound.pause();
         glitchSound.currentTime = 0;
 
       }, 500);
-
 
       popup.remove();
 
@@ -557,6 +542,36 @@ function showGlitchSoundPrompt() {
       console.log('Sound could not be enabled.');
 
     }
+
+  });
+
+}
+
+if (glitchName) {
+
+  glitchName.addEventListener('mouseenter', () => {
+
+    if (!glitchSoundEnabled) {
+
+      showGlitchSoundPrompt();
+
+      return;
+
+    }
+
+    glitchSound.currentTime = 0;
+    glitchSound.volume = 0.2;
+
+    glitchSound.play().catch(() => {});
+
+  });
+
+  glitchName.addEventListener('mouseleave', () => {
+
+    if (!glitchSoundEnabled) return;
+
+    glitchSound.pause();
+    glitchSound.currentTime = 0;
 
   });
 

@@ -2001,3 +2001,112 @@ ul {
   }
 }
 
+/* =========================================================
+   GLITCH SOUND — CHROME STYLE TOP POPUP
+========================================================= */
+
+#glitch-sound-prompt {
+    position: fixed;
+    top: 18px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    z-index: 99999;
+
+    pointer-events: none;
+}
+
+.glitch-sound-box {
+    width: 360px;
+    max-width: calc(100vw - 32px);
+
+    padding: 16px 18px;
+
+    /* Transparent glass */
+    background: rgba(15, 15, 15, 0.72);
+
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+    border-radius: 10px;
+
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    box-shadow:
+        0 8px 30px rgba(0, 0, 0, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+
+    color: #fff;
+
+    font-family: inherit;
+
+    pointer-events: auto;
+
+    animation: browserPopupIn 0.22s ease-out;
+}
+
+.glitch-sound-title {
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #fff;
+
+    margin-bottom: 7px;
+}
+
+.glitch-sound-text {
+    font-size: 12px;
+    line-height: 1.5;
+
+    color: rgba(255, 255, 255, 0.68);
+
+    margin-bottom: 14px;
+}
+
+#enable-glitch-sound {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+
+    background: rgba(255, 255, 255, 0.10);
+
+    color: #fff;
+
+    padding: 8px 16px;
+
+    border-radius: 6px;
+
+    font-family: inherit;
+    font-size: 11px;
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease;
+}
+
+#enable-glitch-sound:hover {
+    background: rgba(255, 255, 255, 0.18);
+
+    border-color: rgba(255, 255, 255, 0.35);
+
+    transform: translateY(-1px);
+}
+
+@keyframes browserPopupIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
