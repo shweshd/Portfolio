@@ -1,349 +1,336 @@
-# Shwesh Dubey — Developer Journey Portfolio
+<div align="center">
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00111f,100:00d9ff&height=180&section=header&text=Shwesh%20Dubey&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Developer%20Journey%20%7C%203D%20Interactive%20Portfolio&descAlignY=58&descSize=18" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00111f,50:0066ff,100:00d9ff&height=220&section=header&text=Shwesh%20Dubey&fontSize=55&fontColor=ffffff&fontAlignY=35&desc=Developer%20Journey%20%7C%203D%20Interactive%20Portfolio&descAlignY=58&descSize=18&animation=fadeIn" />
 
-<p align="center">
-  <a href="https://shweshd.github.io/Portfolio/">
-    <img src="https://img.shields.io/badge/Visit%20My%20Portfolio-00d9ff?style=for-the-badge&logoColor=white" alt="Visit Portfolio"/>
-  </a>
+<br/>
 
-  <a href="https://github.com/shweshd">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
+<a href="https://shweshd.github.io/Portfolio/">
+  <img src="https://img.shields.io/badge/🚀_VISIT_MY_PORTFOLIO-00d9ff?style=for-the-badge&logoColor=white&labelColor=00111f" alt="Visit Portfolio"/>
+</a>
 
-  <a href="https://www.linkedin.com/in/shweshdubey/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-</p>
+<br/><br/>
 
----
+<a href="https://github.com/shweshd">
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://www.linkedin.com/in/shweshdubey/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<br/><br/>
+
+![Made with Three.js](https://img.shields.io/badge/Made%20with-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![WebGL](https://img.shields.io/badge/Powered%20by-WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
+![Status](https://img.shields.io/badge/status-active-brightgreen?style=flat-square)
+![Deployed](https://img.shields.io/badge/deployed-GitHub%20Pages-222?style=flat-square&logo=github)
+
+</div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f0f1a,100:00111f&height=2&section=header"/>
 
 ## 📌 About
 
-This is my personal **3D interactive developer portfolio**, designed to showcase my education, technical skills, projects, and journey as a developer.
+This is my personal **3D interactive developer portfolio**, built to showcase my education, technical skills, projects, and journey as a developer.
 
-Instead of using a traditional static portfolio layout, the website uses **Three.js and WebGL** to create a cinematic 3D environment where scrolling moves the camera through different stages of my developer journey.
+Instead of a traditional static layout, the site uses **Three.js and WebGL** to create a cinematic 3D environment — scrolling literally moves the camera through different stages of my developer journey.
 
-The portfolio follows six main stations:
+<div align="center">
 
-**Home → About → Education → Skills → Projects → Contact**
+```
+🏠 Home  →  👨‍💻 About  →  🎓 Education  →  ⚙️ Skills  →  💻 Projects  →  📡 Contact
+```
 
-I am currently focused on **Python, SQL, backend development, databases, and computer science fundamentals**, with a long-term goal of building scalable backend systems and developing expertise in **Artificial Intelligence and modern software architecture**.
+</div>
 
----
+I'm currently focused on **Python, SQL, backend development, databases, and computer science fundamentals** — with a long-term goal of building scalable backend systems and developing expertise in **Artificial Intelligence and modern software architecture**.
 
-# ✨ Features
+<br/>
 
+## 📖 Table of Contents
+
+- [✨ Features](#-features)
+- [🛠️ Technologies](#️-technologies)
+- [🌐 Developer Journey](#-developer-journey)
+- [💻 Projects](#-projects)
+- [🎨 Design](#-design)
+
+<br/>
+
+## ✨ Features
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**🎮 Experience**
 - Interactive 3D environment
-- Three.js and WebGL rendering
 - Scroll-controlled cinematic camera
 - Six-section developer journey
-- Responsive design
-- Mobile support
+- Smooth camera transitions
+- Reduced-motion support
+
+</td>
+<td width="33%" valign="top">
+
+**🎨 Visuals**
 - Dark futuristic UI
 - Glassmorphism interface
 - Animated particles
 - Dynamic lighting
-- Scroll-based animations
-- Smooth camera transitions
-- Interactive 3D elements
 - Rotating technology ring
-- Animated contact orb
-- Cyan `SD` branding on contact orb
-- Interactive project showcase
-- Project details and GitHub links
+- Animated contact orb with cyan `SD` branding
+
+</td>
+<td width="33%" valign="top">
+
+**⚙️ Engineering**
+- Three.js + WebGL rendering
+- Interactive project showcase w/ GitHub links
 - Downloadable CV
-- Responsive navigation
-- Reduced-motion support
+- Responsive navigation & mobile support
 - GitHub Pages deployment
 
----
+</td>
+</tr>
+</table>
 
-# 🛠️ Technologies
+<br/>
 
-### Frontend
+## 🛠️ Technologies
 
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
+<div align="center">
 
-### 3D
+**Frontend**
 
-<p>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white"/>
-</p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 
-### Programming & Database
+**3D & Graphics**
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
+<img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white"/>
 
-### Tools
+**Programming & Database**
 
-- Visual Studio Code
-- Git
-- GitHub
-- GitHub Pages
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 
----
+**Tools**
 
-# 🌐 Developer Journey
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white"/>
+
+</div>
+
+<br/>
+
+## 🌐 Developer Journey
 
 The portfolio is structured as a cinematic journey through six stations.
 
-### 🏠 Home
+| Station | Description |
+|:---:|---|
+| 🏠 **Home** | The landing section introducing me with a futuristic 3D environment and animated developer-focused content. |
+| 👨‍💻 **About** | Background, interests, and journey as a developer. |
+| 🎓 **Education** | Academic journey and current education. |
+| ⚙️ **Skills** | Technical skills and technologies I'm currently learning and working with. |
+| 💻 **Projects** | An interactive project laboratory containing my development work. |
+| 📡 **Contact** | Contact information, social links, CV access, and a custom animated 3D contact orb with my `SD` initials. |
 
-The landing section introduces me with a futuristic 3D environment and animated developer-focused content.
+<br/>
 
-### 👨‍💻 About
-
-Provides information about my background, interests, and journey as a developer.
-
-### 🎓 Education
-
-Displays my academic journey and current education.
-
-### ⚙️ Skills
-
-Showcases my technical skills and technologies that I am currently learning and working with.
-
-### 💻 Projects
-
-An interactive project laboratory containing my development projects.
-
-### 📡 Contact
-
-The final station contains contact information, social links, CV access, and a custom animated 3D contact orb featuring my `SD` initials.
-
----
-
-# 💻 Projects
+## 💻 Projects
 
 The portfolio currently showcases projects across Python, frontend development, and software development.
 
-### 🔐 Password Manager
+### 🐍 Python Projects
 
+<table>
+<tr>
+<td width="50%">
+
+**🔐 [Password Manager](https://github.com/shweshd/Password-Manager)**
 Python-based password manager for generating, storing, and retrieving passwords.
+`Python`
 
-**Technology:** Python
+</td>
+<td width="50%">
 
-<a href="https://github.com/shweshd/Password-Manager">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Password Manager"/>
-</a>
-
----
-
-### 🔑 Password Generator
-
+**🔑 [Password Generator](https://github.com/shweshd/Password-Generator)**
 Customizable password generator using letters, numbers, and special characters.
+`Python`
 
-**Technology:** Python
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-<a href="https://github.com/shweshd/Password-Generator">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Password Generator"/>
-</a>
-
----
-
-### ⏰ Alarm Clock
-
+**⏰ [Alarm Clock](https://github.com/shweshd/Alarm-Clock)**
 Python alarm application with countdown timer and alarm functionality.
+`Python`
 
-**Technology:** Python
+</td>
+<td width="50%">
 
-<a href="https://github.com/shweshd/Alarm-Clock">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Alarm Clock"/>
-</a>
-
----
-
-### ⌨️ WPM Typing Test
-
+**⌨️ [WPM Typing Test](https://github.com/shweshd/WPM-Typing-Test)**
 Terminal-based typing speed and accuracy testing application.
+`Python`
 
-**Technology:** Python
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-<a href="https://github.com/shweshd/WPM-Typing-Test">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit WPM Typing Test"/>
-</a>
-
----
-
-### 🗺️ Shortest Path Finder
-
+**🗺️ [Shortest Path Finder](https://github.com/shweshd/Shortest-Path-Finder)**
 Terminal-based pathfinding project that finds routes through a maze using graph-search concepts.
+`Python` `Algorithms` `Curses`
 
-**Technologies:** Python, Algorithms, Curses
+</td>
+<td width="50%">
 
-<a href="https://github.com/shweshd/Shortest-Path-Finder">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Shortest Path Finder"/>
-</a>
+**▶️ [Python Media Downloader](https://github.com/shweshd/Python-Media-Downloader)**
+Media downloader using `yt-dlp` with a simple interface for downloading video and audio.
+`Python` `yt-dlp`
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### ▶️ Python Media Downloader
-
-Python-based media downloader using `yt-dlp` with a simple interface for downloading online video and audio.
-
-**Technologies:** Python, yt-dlp
-
-<a href="https://github.com/shweshd/Python-Media-Downloader">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Python Media Downloader"/>
-</a>
-
----
-
-### 🧠 Python Quiz Game
-
+**🧠 [Python Quiz Game](https://github.com/shweshd/Quiz-Game)**
 10-question terminal-based quiz game for practicing programming concepts.
+`Python`
 
-**Technology:** Python
+</td>
+<td width="50%">
 
-<a href="https://github.com/shweshd/Quiz-Game">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Quiz Game"/>
-</a>
+**✊ [Rock Paper Scissors](https://github.com/shweshd/Rock-Paper-Scissors)**
+Player competes against a computer-controlled opponent.
+`Python`
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### ✊ Rock Paper Scissors
-
-Python game where the player competes against a computer-controlled opponent.
-
-**Technology:** Python
-
-<a href="https://github.com/shweshd/Rock-Paper-Scissors">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Rock Paper Scissors"/>
-</a>
-
----
-
-### 🔢 Number Guessing Game
-
+**🔢 [Number Guessing Game](https://github.com/shweshd/Number-Guessing-Game)**
 Number guessing game with randomly generated numbers and hints.
+`Python`
 
-**Technology:** Python
+</td>
+<td width="50%">
 
-<a href="https://github.com/shweshd/Number-Guessing-Game">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Number Guessing Game"/>
-</a>
+**🐢 [Turtle Racing](https://github.com/shweshd/Turtle-Racing)**
+Graphical racing game using Python's Turtle module with randomized racers.
+`Python` `Turtle`
 
----
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### 🐢 Turtle Racing
+**🎰 [Python Slot Machine](https://github.com/shweshd/Slot-Machine)**
+Command-line slot machine with betting logic, randomized symbols, winning lines, and balance management.
+`Python`
 
-Graphical racing game using Python's Turtle module with multiple randomized racers.
+</td>
+<td width="50%">
 
-**Technologies:** Python, Turtle
+**⏱️ [Timed Math Challenge](https://github.com/shweshd/Timed-math-challenge)**
+Timed command-line math game with incorrect-attempt tracking and input validation.
+`Python`
 
-<a href="https://github.com/shweshd/Turtle-Racing">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Turtle Racing"/>
-</a>
+</td>
+</tr>
+<tr>
+<td width="50%">
 
----
+**📝 [Mad Libs Generator](https://github.com/shweshd/Madlibs-Generator)**
+Reads a story, detects placeholders, collects input, and generates a customized story.
+`Python` `File Handling`
 
-### 🎰 Python Slot Machine
+</td>
+<td width="50%">
 
-Command-line slot machine featuring betting logic, randomized symbols, winning lines, and balance management.
-
-**Technology:** Python
-
-<a href="https://github.com/shweshd/Slot-Machine">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Slot Machine"/>
-</a>
-
----
-
-### ⏱️ Timed Math Challenge
-
-Timed command-line math game with random problems, incorrect-attempt tracking, and input validation.
-
-**Technology:** Python
-
-<a href="https://github.com/shweshd/Timed-math-challenge">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Timed Math Challenge"/>
-</a>
-
----
-
-### 📝 Mad Libs Generator
-
-Python program that reads a story, detects placeholders, collects user input, and generates a customized story.
-
-**Technologies:** Python, File Handling
-
-<a href="https://github.com/shweshd/Madlibs-Generator">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Mad Libs Generator"/>
-</a>
-
----
-
-### 🗺️ Choose Your Own Adventure
-
+**🗺️ [Choose Your Own Adventure](https://github.com/shweshd/Choose-your-own-adventure)**
 Interactive text-based adventure game where player choices determine the outcome.
+`Python`
 
-**Technology:** Python
+</td>
+</tr>
+</table>
 
-<a href="https://github.com/shweshd/Choose-your-own-adventure">
-  <img src="https://img.shields.io/badge/VISIT-00d9ff?style=for-the-badge" alt="Visit Choose Your Own Adventure"/>
-</a>
+### 🌐 Web Projects
 
----
+<table>
+<tr>
+<td width="100%">
 
-### 🏢 RiskCube Institute Official Website
-
+**🏢 [RiskCube Institute Official Website](https://github.com/shweshd/RiskCube-Institute-Official-Website)**
 Responsive frontend website developed for RiskCube Institute.
+`HTML5` `CSS3` `JavaScript`
+&nbsp;•&nbsp; [🔗 Live Site](https://shweshd.github.io/RiskCube-Institute-Official-Website/)
 
-**Technologies:** HTML5, CSS3, JavaScript
+</td>
+</tr>
+<tr>
+<td width="100%">
 
-<a href="https://github.com/shweshd/RiskCube-Institute-Official-Website">
-  <img src="https://img.shields.io/badge/VISIT%20CODE-FFFFFF?style=for-the-badge&labelColor=FFFFFF&color=FFFFFF" alt="Visit Code"/>
-</a>
-
-<a href="https://shweshd.github.io/RiskCube-Institute-Official-Website/">
-  <img src="https://img.shields.io/badge/VISIT%20WEBSITE-B8860B?style=for-the-badge&labelColor=B8860B&color=B8860B" alt="Visit Website"/>
-</a>
-
----
-
-### ▶️ YouTube Clone
-
+**▶️ [YouTube Clone](https://github.com/shweshd/YouTube-Clone)**
 Responsive YouTube homepage clone built using pure HTML and CSS.
+`HTML5` `CSS3`
+&nbsp;•&nbsp; [🔗 Live Site](https://shweshd.github.io/YouTube-Clone/)
 
-**Technologies:** HTML5, CSS3
+</td>
+</tr>
+</table>
 
-<a href="https://github.com/shweshd/YouTube-Clone">
-  <img src="https://img.shields.io/badge/VISIT%20CODE-FFFFFF?style=for-the-badge&labelColor=FFFFFF&color=FFFFFF" alt="Visit Code"/>
-</a>
+<br/>
 
-<a href="https://shweshd.github.io/YouTube-Clone/">
-  <img src="https://img.shields.io/badge/VISIT%20WEBSITE-B8860B?style=for-the-badge&labelColor=B8860B&color=B8860B" alt="Visit Website"/>
-</a>
-
----
-
-# 🎨 Design
+## 🎨 Design
 
 The portfolio follows a **dark futuristic / sci-fi visual style**.
 
-### Design elements
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- Dark navy/black environment
+**Environment**
+- Dark navy/black backdrop
 - Cyan accent lighting
-- Glassmorphism panels
 - Glowing 3D objects
 - Particle effects
 - Cinematic camera movement
+
+</td>
+<td width="50%" valign="top">
+
+**Interface**
+- Glassmorphism panels
+- Minimal, futuristic typography
 - Interactive animations
-- Minimal UI
 - Responsive layouts
-- Futuristic typography
 - Cyan `SD` identity element
 
-The 3D environment acts as the visual background while the actual portfolio content is displayed using HTML overlays. This keeps the text accessible, selectable, responsive, and sharp.
+</td>
+</tr>
+</table>
+
+> The 3D environment acts as the visual background while the actual portfolio content is displayed using HTML overlays — keeping text accessible, selectable, responsive, and sharp.
+
+<br/>
+
+<br/>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d9ff,100:00111f&height=120&section=footer"/>
+
+**⭐ If you like this project, consider giving it a star!**
+
+</div>
